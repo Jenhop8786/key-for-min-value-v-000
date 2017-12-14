@@ -3,7 +3,7 @@
 
   def key_for_min_value(name_hash)
   smallest_name = nil
-  smalles_number = nil
+  smallest_number = nil
   name_hash.collect do |name, number|
     if smallest_number == nil || number < smallest_number
       smallest_name = name
